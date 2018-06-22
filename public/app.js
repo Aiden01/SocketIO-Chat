@@ -16,6 +16,7 @@ messageBox.addEventListener('keyup', (e) => {
 
 // receives a new message
 socket.on('message received', (message) => {
+    console.log(message)
     // create the message
     let msg = document.createElement('li')
     msg.innerHTML = message.message
