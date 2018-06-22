@@ -14,7 +14,10 @@
   </head>
   <body>
         <ul id="messages">
-            </ul>
+          <% for(message of messages) { %>
+            <li><%= message.content %></li>
+          <% } %>
+        </ul>
     <div class="box">
       <input id="sendBox" placeholder="Write your message here"/>
     </div>

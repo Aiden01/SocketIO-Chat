@@ -19,7 +19,7 @@ socket.on('message received', (message) => {
     console.log(message)
     // create the message
     let msg = document.createElement('li')
-    msg.innerHTML = message.message
+    msg.innerHTML = message
     // append to the ul
     let messages = document.querySelector('#messages')
     messages.appendChild(msg)
