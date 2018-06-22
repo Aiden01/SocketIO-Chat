@@ -1,0 +1,24 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": " Experimenting Socket.io by creating a simple chat application. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MobElian/SocketIO-Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MobElian/SocketIO-Chat/issues"
+  },
+  "homepage": "https://github.com/MobElian/SocketIO-Chat#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
