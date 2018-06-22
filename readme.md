@@ -6,4 +6,4 @@ Experimenting Socket.io by creating a simple chat application.
 - SocketIO
 
 ## > TODO
-- [ ] Add MongoDB for persistance
+- [x] Add MongoDB for persistance
